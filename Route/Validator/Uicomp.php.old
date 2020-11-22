@@ -1,0 +1,15 @@
+<?php
+
+namespace Personal\UiComponent\Route\Validator;
+
+use Magento\Framework\App\RequestInterface;
+use ScandiPWA\Router\ValidatorInterface;
+
+
+class Uicomp implements ValidatorInterface
+{
+    public function validateRequest(RequestInterface $request): bool
+    {
+        return true;
+    }
+}

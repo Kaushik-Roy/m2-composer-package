@@ -1,0 +1,25 @@
+<?php
+/** @var \Personal\UiComponent\Block\UIComponent $block */
+?>
+
+<p>This is a test page</p>
+
+<div id="uic-demo-container" data-bind="scope: 'uicdemo'">
+    <!-- ko template: getTemplate() --><!-- /ko -->
+</div>
+<script type="text/x-magento-init">
+    {
+        "#uic-demo-container": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "uicdemo": {
+                        "component": "Personal_UiComponent/js/view/demo",
+                        "config": {
+                            "template": "Personal_UiComponent/demo"
+                        }
+                    }
+                }
+            }
+        }
+    }
+</script>
