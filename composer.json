@@ -1,5 +1,5 @@
 {
-	"name": "Kaushik-Roy/m2-composer-package",
+	"name": "kaushik-kumar-roy/m2-composer-package",
 	"description": "Kaushik Learning composer package module for Magento 2",
 	"keywords":[
 		"magento-2",
@@ -30,4 +30,4 @@
 			"Personal\\UiComponent\\": ""
 		}
 	}
-} 
+}
